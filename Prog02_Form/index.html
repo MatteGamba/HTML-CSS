@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="embadding.html">Embadding</a></li>
+    </ul>
+
+    
+
+    <form enctype="multipart/form-data">
+
+        <fieldset>
+            <legend>Anagrafica</legend>
+            <label for="firstname">Nome <span style="color: rgb(255, 55, 55);">*</span></label><br>
+            <input type="text" name="firstname" id="firstname" size="30" minlength="3" maxlength="30" autofocus placeholder="Nome" required><br>
+            <label for="lastname">Cognome</label><br>
+            <input type="text" name="lastname" id="lastname" placeholder="Cognome" required><br><br>
+            <label for="male"><input type="radio" name="gender" id="male" value="M">M</label>
+            <label for="female"><input type="radio" name="gender" id="female" value="F">F</label><br><br>
+            <label for="birth">Data nascita</label><br>
+            <input type="date" name="birth" id="birth"><br>
+            <label for="time">Ora di nascita</label><br>
+            <input type="time" name="time" id="time"><br>
+            <label for="color">Qual'è il tuo colore preferito?</label><br>
+            <input type="color" name="color" id="colore"><br>
+            <label for="url">Inserisci il tuo sito</label><br>
+            <input type="url" name="url" id="url"><br>
+            <label for="mail">Inserisci la tua email</label><br>
+            <input type="email" name="mail" id="mail" placeholder="Inserisci la tua email"><br>
+            <label for="num">Inserisci il tuo numero</label><br>
+            <input type="number" name="num" id="num" min="0"><br>
+            <label for="score">Inserisci la tua valutazione</label><br>
+            <input type="range" name="score" id="score"><br>
+            <label for="search">Cerca: </label>
+            <input type="search" name="search" id="search"><br>
+            <label for="car">Quale auto possiedi?</label>
+            <select name="car" id="car">
+                <option value="">Scegli tra le seguenti</option>
+                <optgroup label="Auto italiane">
+                    <option value="fiat">Panda</option>
+                    <option value="fiat">Uno</option>
+                    <option value="fiat">Ritmo</option>
+                </optgroup>
+                <optgroup label="Auto tedesche">
+                    <option value="audi">Golf</option>
+                    <option value="audi">Polo</option>
+                    <option value="audi">Serie 1</option>
+                </optgroup>
+                <option value="mercedes">Mercedes</option>
+                <option value="renault">Renault</option>
+            </select><br>
+           <small>Per selezionare valori non contigui, usare il tasto <kbd>Ctrl</kbd></small>
+
+        </fieldset>
+        <br>
+        <label for="msg">Lascia un messaggio</label><br>
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Inserisci il tuo messaggio"></textarea>
+        <br><br>
+        <fieldset>
+            <legend>Altro</legend>
+            <label for="music"><input type="checkbox" name="music" id="music">Musica</label><br>
+            <label for="foto"><input type="checkbox" name="foto" id="foto">Fotografia</label><br>
+            <label for="design"><input type="checkbox" name="design" id="design">Design</label><br>
+            <label for="cod"><input type="checkbox" name="cod" id="cod">Coding</label><br>
+        </fieldset>
+        <br>
+        <label for="file">Carica le tue immagini</label><br>
+        <input type="file" name="file" id="file" accept="image/*" multiple><br>
+        
+        <input type="submit"><br>
+        <input type="reset" value="Ripristina"><br>
+        <input type="button" value="Cliccami" onclick="alert('ciao bello');"><br>
+        <input type="submit" value="Invia">
+                
+    </form>
+    
+</body>
+
+</html>
