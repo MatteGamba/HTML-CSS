@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Blog: Registrati</title>
+</head>
+
+<style>
+    #menu{
+        padding-left: 0;
+    }
+
+    ul a li{
+        display: inline;
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-right: 20px;
+    }
+
+    ul a li:hover{
+        text-decoration: underline;
+    }
+
+</style>
+
+<body>
+    <nav>
+        <ul id = menu style="list-style-type: none;">
+            <a href="index.html" style="text-decoration: none; color: red;"><li>Home</li></a>
+            <a href="contact.html" style="text-decoration: none; color: red;"><li>Contattaci</li></a>
+            <a href="join.html" style="text-decoration: none; color: red;"><li>Registrati</li></a>
+        </ul>
+    </nav>
+
+    <h2>Registrati</h2>
+
+    <p>Compila il modulo seguente per registrati al nostro blog! Potrai commentare i nostri articoli e
+        collaborare con noi.
+    </p>
+
+
+    <form action="">
+        <label for="name">Nome: </label>
+        <input type="text" name="name" id="name"><br>
+        <label for="sur">Cognome: </label>
+        <input type="text" name="sur" id="sur"><br>
+        <label for="date">Data di nascita: </label>
+        <input type="date" name="date" id="date"><br>
+
+        <input type="checkbox" name="M" id="male"> M
+        <input type="checkbox" name="F" id="female"> F <br>
+
+        <label for="nick">Nickname: </label>
+        <input type="text" name="nick" id="nick"><br>
+        <label for="pw">Password: </label>
+        <input type="password" name="pw" id="pw"><br>
+        <label for="mail">Email: </label>
+        <input type="email" name="mail" id="mail"><br>
+    </form>
+
+    <p>Informativa sulla privacy
+        “Termini del servizio” e “Condizioni di privacy”
+        La società BLABLA desidera informarLa che il D.Lgs. 196/2003, sostitutivo della legge 675/1996,
+        prevede la tutela delle persone e di altri soggetti rispetto al trattamento dei dati personali.
+        Secondo il decreto legislativo indicato, tale trattamento sarà improntato ai principi di correttezza,
+        liceità e trasparenza e di tutela della Sua riservatezza e dei Suoi diritti.” 
+    </p>
+    <input type="radio" name="rad" id="rad">
+    <label for="rad">Accetto i termini</label>
+
+
+    <footer>
+            <p>Presented by: Matteo Gamba</p>
+            <p>Consegna: 26 Gennaio 2021</p>
+    </footer>
+
+</body>
+</html>
