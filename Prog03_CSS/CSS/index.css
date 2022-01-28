@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#titolo{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+#titolo h1{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(60, 60, 255);
+    letter-spacing: 5px;
+}
+
+#menu{    
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.col-sm-4{
+    text-align: center;
+    float: left;
+    border-radius: 0px;
+    height: 100%;
+    padding: 30px;
+}
+
+.col-sm-4 p{
+    margin-top: 40px;
+}
+
+.uno{
+    border-right: 1px solid black;
+}
+
+.tre{
+    border-left: 1px solid black;
+}
