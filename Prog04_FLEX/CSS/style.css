@@ -1,0 +1,25 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+.flex-container{
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+    height: 900px;
+    width: 1000px;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: center; */
+    /* justify-content: space-evenly; */
+}
+
+.box{
+    background-color: orange;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: .6rem;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}

@@ -11,13 +11,13 @@
 <body>
 
     <h1>L'HTML</h1>
-
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="embadding.html">Embadding</a></li>
-        <li><a href="html5.html">HTML5</a></li>
-    </ul>
-
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="embadding.html">Embadding</a></li>
+            <li><a href="html5.html">HTML5</a></li>
+        </ul>
+    </nav>
 
 
     <form enctype="multipart/form-data">
@@ -26,19 +26,19 @@
             <legend>Anagrafica</legend>
             <label for="firstname">Nome <span style="color: rgb(255, 55, 55);">*</span></label><br>
             <input type="text" name="firstname" id="firstname" size="30" minlength="3" maxlength="30" autofocus placeholder="Nome" required><br>
-            <label for="lastname">Cognome</label><br>
+            <label for="lastname">Cognome <span style="color: rgb(255, 55, 55);">*</label><br>
             <input type="text" name="lastname" id="lastname" placeholder="Cognome" required><br><br>
             <label for="male"><input type="radio" name="gender" id="male" value="M">M</label>
             <label for="female"><input type="radio" name="gender" id="female" value="F">F</label><br><br>
             <label for="birth">Data nascita</label><br>
             <input type="date" name="birth" id="birth"><br>
-            <label for="time">Ora di nascita</label><br>
+            <label for="time">Ora di nascita <span style="color: rgb(255, 55, 55);">*</label><br>
             <input type="time" name="time" id="time"><br>
             <label for="color">Qual'è il tuo colore preferito?</label><br>
             <input type="color" name="color" id="colore"><br>
             <label for="url">Inserisci il tuo sito</label><br>
             <input type="url" name="url" id="url"><br>
-            <label for="mail">Inserisci la tua email</label><br>
+            <label for="mail">Inserisci la tua email <span style="color: rgb(255, 55, 55);">*</label><br>
             <input type="email" name="mail" id="mail" placeholder="Inserisci la tua email"><br>
             <label for="num">Inserisci il tuo numero</label><br>
             <input type="number" name="num" id="num" min="0"><br>
@@ -66,15 +66,17 @@
 
         </fieldset>
         <br>
-        <label for="msg">Lascia un messaggio</label><br>
+        <label for="msg">Lascia un messaggio <span style="color: rgb(255, 55, 55);">*</label><br>
         <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Inserisci il tuo messaggio"></textarea>
         <br><br>
         <fieldset>
-            <legend>Altro</legend>
+            <legend>Interessi</legend>
             <label for="music"><input type="checkbox" name="music" id="music">Musica</label><br>
             <label for="foto"><input type="checkbox" name="foto" id="foto">Fotografia</label><br>
             <label for="design"><input type="checkbox" name="design" id="design">Design</label><br>
             <label for="cod"><input type="checkbox" name="cod" id="cod">Coding</label><br>
+            <label for="sport"><input type="checkbox" name="sport" id="sport">Sport</label><br>     
+            <label for="ape"><input type="checkbox" name="ape" id="ape">Aperitivo</label><br>
         </fieldset>
         <br>
         <label for="file">Carica le tue immagini</label><br>

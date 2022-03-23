@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 50px auto;
+    border: 1px solid black;
+    width: 1200px;
+
+}
+
+.nav{
+    display: flex;
+    background-color: green;
+}
+
+ul{
+    padding-left: 0;
+    margin: 0;
+}
+
+ul li{
+    display: inline-flex;
+    padding: 10px 20px;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: blue;
+}
+
+.active{
+    background-color: red;
+}
+
+.blue{
+    padding: 0 0 70px 0;
+    background-color: rgb(59, 59, 255);
+}
+
+.yellow{
+    height: 500px;
+    background-color: rgb(200, 255, 0);
+}
+
+.red{
+    padding: 100px;
+    background-color: red;
+}
+
+.row{
+    width: 100%;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-9{
+    float: left;
+    height: 500px;
+    background-color: yellow;
+    width: 75%;
+}
+
+.col-3{
+    float: left;
+    height: 500px;
+    background-color: pink;
+    width: 25%;
+}
+
+.col-6{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: yellow;
+}
+
+.col-12{
+    height: 500px;
+    background-color: yellow;
+    margin: 0 200px;
+}
